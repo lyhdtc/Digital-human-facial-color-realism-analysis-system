@@ -1,0 +1,3 @@
+[submodule "InverseRender/ShapeAndMaterial"]
+	path = InverseRender/ShapeAndMaterial
+	url = git@github.com:dlichy/ShapeAndMaterial.git
