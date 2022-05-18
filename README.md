@@ -6,21 +6,27 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 主要流程
+一种符合人类认知的数字人面部色彩真实度分析系统
 
+
+## 主要流程
+待补充
 ## 文件目录说明
 共包含四个模块，每个模块的使用请参考各自的README.md文件
 ```
-Folders https://img.shields.io/github/stars/lyhdtc/Digital-human-facial-color-realism-analysis-system.svg?style=flat-square
+Folders 
 ├── DatasetGenerator
 ├── InverseRender
 ├── FaceFeatureExtract
 └── FaceFeatureFuse
 ```
+
 ## 上手指南
-1、```InverseRender```进行逆向渲染，分别获得真实人类和数字人的贴图资产   
-2、```FaceFeatureExtract```进行特征提取，获得灰度图像
-3
+使用时参照流程依次选取对应模块运行即可   
+```DatasetGenerator:```生成```FaceFeatureFuse```训练使用的数据集    
+```InverseRender:```逆向渲染，将图片解耦成贴图   
+```FaceFeatureExtract:```特征提取，使用传统图像处理方式提取特征灰度图像 
+```FaceFeatureFuse:```特征融合，使用神经网络将灰度图像融合成伪彩色图像
 
 <!-- links -->
 [your-project-path]:lyhdtc/Digital-human-facial-color-realism-analysis-system
