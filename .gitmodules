@@ -1,3 +1,6 @@
 [submodule "InverseRender/ShapeAndMaterial"]
 	path = InverseRender/ShapeAndMaterial
 	url = git@github.com:dlichy/ShapeAndMaterial.git
+[submodule "InverseRender/InverseRenderNet_v2"]
+	path = InverseRender/InverseRenderNet_v2
+	url = git@github.com:YeeU/InverseRenderNet_v2.git
