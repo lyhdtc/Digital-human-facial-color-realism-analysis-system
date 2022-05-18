@@ -7,3 +7,6 @@
 [submodule "InverseRender/DeepInverseRendering"]
 	path = InverseRender/DeepInverseRendering
 	url = git@github.com:msraig/DeepInverseRendering.git
+[submodule "InverseRender/SfSNet-Pytorch"]
+	path = InverseRender/SfSNet-Pytorch
+	url = git@github.com:Mannix1994/SfSNet-Pytorch.git
