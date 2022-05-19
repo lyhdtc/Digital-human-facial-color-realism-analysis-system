@@ -1,12 +1,3 @@
-'''
-Descripttion: 
-version: 
-Author: LJ
-Date: 2022-03-28 09:36:24
-LastEditors: LJ
-LastEditTime: 2022-03-28 20:13:57
-'''
-
 import torch, sys, os
 sys.path.append('.')
 from torch.utils.data import DataLoader

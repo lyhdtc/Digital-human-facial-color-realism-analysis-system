@@ -1,11 +1,3 @@
-'''
-Descripttion: 
-version: 
-Author: LJ
-Date: 2022-03-28 09:36:24
-LastEditors: LJ
-LastEditTime: 2022-03-30 12:47:34
-'''
 import torch, sys, os, h5py
 sys.path.append('.')
 from torch.utils.data import DataLoader

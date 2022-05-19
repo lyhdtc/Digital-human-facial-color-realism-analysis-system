@@ -1,11 +1,3 @@
-'''
-Descripttion: 
-version: 
-Author: LJ
-Date: 2022-03-28 21:02:42
-LastEditors: LJ
-LastEditTime: 2022-03-30 14:07:47
-'''
 from errno import ELIBBAD
 import cv2, sys, os, h5py, torch
 sys.path.append('.')

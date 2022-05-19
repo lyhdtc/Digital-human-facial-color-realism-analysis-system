@@ -3,6 +3,7 @@ from email.mime import base
 import os
 # from pydoc import describe
 import sys
+from unicodedata import name
 
 # from torch import uint8
 from tqdm import tqdm,trange
@@ -80,3 +81,32 @@ def dataset_run():
 
     end_time = time.perf_counter()  
     print('程序共运行 {_time_}秒'.format(_time_=(end_time - start_time)))
+    
+def general_run():
+     
+    start_time = time.perf_counter()
+    print('Start!')
+    
+    
+    path_a = '/home/lyh/Chapter4Experiment/4_3Exp/origin_Pic.png'
+    path_b = '/home/lyh/Chapter4Experiment/4_3Exp/origin_Face.png'
+
+    step = 8
+    size_w = 40
+    size_h = 40
+    figsize = (18,10)
+    reshape_size = (400,400)
+    fakecolor_foldername = 'origin'
+    fakecolor_folder = '/home/lyh/Chapter4Experiment/4_3Exp/NewCal_Data/Face/'+fakecolor_foldername+'/'   
+    csv_path = '/home/lyh/Chapter4Experiment/4_3Exp/0419.csv'
+    picpair_name = 'default'
+    FakeColorCSV.fakecolor_and_csv(path_a, path_b, step, size_w, size_h, figsize, fakecolor_foldername, fakecolor_folder, csv_path, picpair_name, reshape_size)
+    
+
+    end_time = time.perf_counter()  
+    print('程序共运行 {_time_}秒'.format(_time_=(end_time - start_time)))
+    
+    
+#·····································
+general_run()
+#dataset_run()
