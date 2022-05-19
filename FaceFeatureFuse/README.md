@@ -2,7 +2,7 @@
  * @Author: lyh
  * @Date: 2022-05-19 15:42:07
  * @LastEditors: lyh
- * @LastEditTime: 2022-05-19 16:28:21
+ * @LastEditTime: 2022-05-19 22:14:07
  * @FilePath: /Digital-human-facial-color-realism-analysis-system/FaceFeatureFuse/README.md
  * @Description: 
  * 
@@ -17,7 +17,7 @@
 待补充
 
 ## 上手指南
-* 下载预训练好的模型，并放在根目录下
+* [下载预训练好的模型](https://pan.baidu.com/s/1Tg7HnIOcNUZ6Grvws1hACw?pwd=0000)(1.19G)，并放在根目录下
 * 获得一组193张灰度特征图像后，需按下述方式建立一个文件夹结构存放,命名亦需保持一致  
 
 ```
@@ -33,7 +33,7 @@ GroundTruth.csv
 * 运行```vis.py```，注意修改路径（14，160行）
 
 ## 训练
-* 提供了三组H5格式的数据集，分别为修改法线，修改albedo，修改光照的数据，每个数据集中包含700组数据的训练集和300组数据的测试集，可按需求下载，或使用```DatasetGenerator```模块生成自己的数据，也可以使用其他生成方式的数据进行训练
+* 提供了修改光照情况下的H5格式的数据集（[点此链接下载](https://pan.baidu.com/s/1MQ5g58VB-C9tWFxhDGfARQ?pwd=0000)(6.19G)），数据集中包含700组数据的训练集和300组数据的测试集，可按需求下载，或使用```DatasetGenerator```模块生成自己的数据，也可以使用其他生成方式的数据进行训练,只需保证每组数据的大小为（1，400，400，193）即可
 * 网络收敛速度很快但是对显存大小要求较高， 建议使用显存大于或等于24G的设备进行训练
 
 ## 结果样例
