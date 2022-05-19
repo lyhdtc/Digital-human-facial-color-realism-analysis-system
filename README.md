@@ -1,3 +1,13 @@
+<!--
+ * @Author: lyh
+ * @Date: 2022-05-19 22:17:19
+ * @LastEditors: lyh
+ * @LastEditTime: 2022-05-19 22:17:20
+ * @FilePath: /Digital-human-facial-color-realism-analysis-system/README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by lyh, All Rights Reserved. 
+-->
 # Digital-human-facial-color-realism-analysis-system
 # 数字人面部色彩真实度分析系统
 
@@ -14,7 +24,7 @@
 ## 文件目录说明
 共包含四个模块，每个模块的使用请参考各自的README.md文件
 ```
-Folders 
+Modules
 ├── DatasetGenerator
 ├── InverseRender
 ├── FaceFeatureExtract
