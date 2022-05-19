@@ -30,9 +30,9 @@ Folders
 
 <!-- links -->
 [your-project-path]:lyhdtc/Digital-human-facial-color-realism-analysis-system
-[contributors-shield]: https://img.shields.io/github/stars/lyhdtc/Digital-human-facial-color-realism-analysis-system.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/lyhdtc/Digital-human-facial-color-realism-analysis-system.svg?style=flat-square
 [contributors-url]: https://github.com/lyhdtc/Digital-human-facial-color-realism-analysis-system/graphs/contributors
-[forks-shield]: https://img.shields.io/github/stars/lyhdtc/Digital-human-facial-color-realism-analysis-system.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/lyhdtc/Digital-human-facial-color-realism-analysis-system.svg?style=flat-square
 [forks-url]: https://github.com/lyhdtc/Digital-human-facial-color-realism-analysis-system/network/members
 [stars-shield]: https://img.shields.io/github/stars/lyhdtc/Digital-human-facial-color-realism-analysis-system.svg?style=flat-square
 [stars-url]: https://github.com/lyhdtc/Digital-human-facial-color-realism-analysis-system/stargazers
