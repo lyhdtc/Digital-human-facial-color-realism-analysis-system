@@ -2,7 +2,7 @@
  * @Author: lyh
  * @Date: 2022-05-19 16:11:42
  * @LastEditors: lyh
- * @LastEditTime: 2022-05-19 22:12:24
+ * @LastEditTime: 2022-05-20 17:16:00
  * @FilePath: /Digital-human-facial-color-realism-analysis-system/DatasetGenerator/README.md
  * @Description: 
  * 
@@ -21,3 +21,7 @@
 * [修改法线](https://pan.baidu.com/s/1ZbwazWAxsLGyhlHDvJbAZw?pwd=0000)(811.1M)
 * [修改albedo](https://pan.baidu.com/s/1t6A63dobXA7zCGdjBtLlow?pwd=0000)(801.4M)
 * [修改光照](https://pan.baidu.com/s/1swi_8oxTODt13WZ0XoPc4w?pwd=0000)(825.5M)
+
+## 测试实验工具
+为了验证生成的数据集与人类认知相似，制作了验证实验程序，代码见```experiment.py```，[exe格式程序下载](https://pan.baidu.com/s/1yiUv2c64SiZYJ2M1KXuPvw?pwd=0000)，使用时替换```Test_Pics```文件夹中的图像即可，程序界面如下   
+![images](/ReadMePics/2_ExperimentUI.png)
