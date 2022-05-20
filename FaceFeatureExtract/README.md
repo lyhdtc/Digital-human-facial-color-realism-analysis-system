@@ -2,7 +2,7 @@
  * @Author: lyh
  * @Date: 2022-05-19 16:02:31
  * @LastEditors: lyh
- * @LastEditTime: 2022-05-19 16:10:53
+ * @LastEditTime: 2022-05-20 16:51:36
  * @FilePath: /Digital-human-facial-color-realism-analysis-system/FaceFeatureExtract/README.md
  * @Description: 
  * 
@@ -22,4 +22,8 @@
 详见```Color/ColorAlgorithrm.py```与```Texture/TextureAlgorithrm.py```
 
 ## 结果样例
-待补充
+![image](/ReadMePics/origin/0.jpg)  
+![image](/ReadMePics/origin/1.jpg)  
+![image](/ReadMePics/origin/2.jpg)  
+![image](/ReadMePics/origin/3.jpg)  
+![image](/ReadMePics/origin/4.jpg)  

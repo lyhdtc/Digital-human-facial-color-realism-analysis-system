@@ -2,7 +2,7 @@
  * @Author: lyh
  * @Date: 2022-05-19 22:17:19
  * @LastEditors: lyh
- * @LastEditTime: 2022-05-19 22:17:20
+ * @LastEditTime: 2022-05-20 16:47:35
  * @FilePath: /Digital-human-facial-color-realism-analysis-system/README.md
  * @Description: 
  * 
@@ -16,11 +16,11 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-一种符合人类认知的数字人面部色彩真实度分析系统
-
+一种符合人类认知的数字人面部色彩真实度分析系统  
+ __English will be update later, If you need English instructions RIGHT NOW, please write in issues.__
 
 ## 主要流程
-待补充
+![image](ReadMePics/total_pipline.png)
 ## 文件目录说明
 共包含四个模块，每个模块的使用请参考各自的README.md文件
 ```

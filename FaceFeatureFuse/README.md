@@ -2,7 +2,7 @@
  * @Author: lyh
  * @Date: 2022-05-19 15:42:07
  * @LastEditors: lyh
- * @LastEditTime: 2022-05-19 22:14:07
+ * @LastEditTime: 2022-05-20 16:52:28
  * @FilePath: /Digital-human-facial-color-realism-analysis-system/FaceFeatureFuse/README.md
  * @Description: 
  * 
@@ -37,4 +37,4 @@ GroundTruth.csv
 * 网络收敛速度很快但是对显存大小要求较高， 建议使用显存大于或等于24G的设备进行训练
 
 ## 结果样例
-详见```op0_27*.png```
+![image](op1_27.png)
